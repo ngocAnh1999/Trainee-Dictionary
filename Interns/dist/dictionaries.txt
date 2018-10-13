@@ -1,0 +1,90 @@
+abandon	(v) bỏ, từ bỏ
+ability	(n) khả năng, năng lực
+unable	(adj) không có năng lực, không có tài
+abroad	(adv) ở, ra nước ngoài, ngoài trời
+absent	(adj) vắng mặt, nghỉ
+absolutely	(adv) tuyệt đối, hoàn toàn
+abuse	(n) (v) lộng hành, lạm dụng
+accent	(n) trọng âm, dấu trọng âm
+acceptable	(adj) có thể chấp nhận, chấp thuận
+access	(n) lối, cửa, đường vào
+accidental	(adj) tình cờ, bất ngờ
+accommodation	(n) sự thích nghi, điều tiết
+according to	(prep) theo, y theo
+accurate	(adj) đúng đắn, chính xác, xác đáng
+accuse	(v) tố cáo, buộc tội, kết tội
+achievement	(n) thành tích, thành tựu
+acknowledge	(v) công nhận, thừa nhận
+across	(adv) (prep) qua, ngang qua
+action	(n) hành động, hành vi, tác động
+actively	(adv) tích cực,hăng hái, nhanh nhẹn, linh lợi
+actor	(n) diễn viên nam
+actual	(adj) thực tế, có thật
+adapt	(v) tra, lắp vào
+addition	(n) tính cộng, phép cộng
+additional	(adj) thêm vào, tăng thêm
+adequate	(adj) đầy, đầy đủ
+adjust	(v) sửa lại cho đúng, điều chỉnh
+admire	(v) khâm phục, thán phục
+adopt	(v) nhận làm con nuôi, bố mẹ nuôi
+advance	(n) (v) sự tiến bộ, tiến lên; đưa lên, đề xuất
+in advance of	trước, sớm ( thời gian)
+take advantage of	lợi dụng
+advertise	(v) báo cho biết, báo cho biết trước
+advertisement	(n) quảng cáo
+advise	(v) khuyên, khuyên bảo, răn bảo
+affect	(v) làm ảnh hưởng, tác động đến
+afford	(v) có thể, có đủ khả năng, điều kiện (làm gì)
+after	(prep) (conj) sau, đằng sau, sau khi
+afterwards	(adv) sau này, về sau, rồi thì, sau đấy
+against	(prep) chống lại, phản đối
+agent	(n) đại lý, tác nhân
+ago	(adv) trước đây
+agreement	(n) sự đồng ý, tán thành; hiệp định, hợp đồng
+aid	(n) (v) sự giúp đỡ; thêm vào, phụ vào
+air	(n) không khí, bầu không khí, không gian
+airport	(n) sân bay, phi trường
+alarming	(adj) làm lo sợ, làm hốt hoảng, làm sợ hãi
+alcohol	(n) rừợu cồn
+alive	[adj] sống, vẫn còn sống, còn tồn tại
+beauty	[n] vẻ đẹp, sắc đẹp, người đẹp
+beach	[n] bãi biển
+bubble	bong bóng, bọt, tăm
+carry	[v]mang, vác theo, chở điều
+comb	[n] cái lược, lỗ tổ ong, mào gà, đỉnh, chóp, ngọn (núi)
+crab	[n] con cua, quả táo dại, cây táo dại
+creep	[n] sự ghê rợn, rùng rợn, sự bò trường
+crack	[adj] cừ, xuất sắc
+dance	[adj] nhảy, khiêu vũ, nhún nhảy
+deny	[v] phủ nhận
+different	[adj] khác, khác biệt
+dialog	[n] cuộc đối thoại
+do	[v] làm
+double	[adj] gấp hai, gấp đôi
+drink	[v] uống, uống rượu
+edit	[v] sắp xếp, chuẩn bị cho một bài viết để xuất bản
+educate	
+excited	
+expand	[v] mở rộng, tràn ra, dãn ra
+gas	
+gift	[n] quà tặng, quà biếu, tài năng
+go	[v] đi
+hair	[n] tóc, mái tóc
+high	[adj] cao, cao cấp, tối cao, cao thương, cao cả
+hike	[n] cuộc hành quân, cuộc đi bộ đường dài
+ink	
+ill	
+irrespondsive	[adj] không đáp lại, không phản ứng lại
+lab	[n] phòng thí nghiệm, phòng thực hành
+libra	[n] cung thiên bình
+library	 [n] thư viện
+luxury	[adj] sang trọng, sang giàu
+make	[v] làm ra, tạo ra
+market	[n] chợ, thị trường tiêu thụ
+marvel	[n] vật kì diệu, vật kì công, người kì lại
+open	[adj] ngỏ, không hạn chế, mở rộng
+pea	
+peach	[n] hoa đào, quả đào
+world	[n] thế giới
+wake up	[v] thức dậy, tỉnh dậy
+variable	[adj] khả biến, có thể thay đổi
