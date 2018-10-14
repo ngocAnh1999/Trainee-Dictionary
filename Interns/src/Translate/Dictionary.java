@@ -14,9 +14,5 @@ import java.util.List;
  */
 public class Dictionary {
     public static List<Words> arraysWord = new ArrayList<>();
-//    public void setArraysWord(List<Words> arraysWord) {
-//            this.arraysWord = arraysWord;
-//    }
-//    public List<Words> getArraysWord() { return this.arraysWord; }
-    
+
 }
