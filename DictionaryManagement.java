@@ -1,22 +1,24 @@
-package dictionarymanagement;
+package Translate;
 
 import java.util.Scanner;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
+import java.io.Reader;
 import java.io.UnsupportedEncodingException;
 
 /**
  *
- * @author Admin : huyengocao
+ * @author Admin : Đặng Thị Ngọc Ánh
  */
 
 public class DictionaryManagement {
-    private final String file = "C:\\tmp\\dictionaries.txt";
+    private final String file = "dictionaries.txt";
     
     public Scanner scan = new Scanner(System.in);
     
@@ -38,7 +40,9 @@ public class DictionaryManagement {
     public void insertFromFile() {
         BufferedReader br = null;
         try {
-            br = new BufferedReader(new FileReader(file));
+            FileInputStream fileInPutStream = new FileInputStream(this.file);
+            Reader reader = new java.io.InputStreamReader(fileInPutStream, "UTF-8");
+            br = new BufferedReader(reader);
             String ex;
             while ((ex = br.readLine()) != null) {
                 if(!ex.contains("\t")) {
@@ -48,31 +52,29 @@ public class DictionaryManagement {
                 Words word = new Words(part[0], part[1]);
                 Dictionary.arraysWord.add(word);
             }
+            br.close();
         }
-        catch (IOException e) {
-            e.printStackTrace();
-        } 
-        finally {
-            try {
-                br.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+        catch (FileNotFoundException | UnsupportedEncodingException ex) {
+            System.out.println("Error " + ex);
+        } catch (IOException ex) {
+            System.out.println("Error " + ex);
         }
     }
 
     // hàm tìm kiếm từ vựng xác định
     public void dictionaryLookup() {
-        System.out.println("**SEARCH your word**");
+        System.out.println("**ENTER your word**");
         String wordfind = scan.nextLine();
-        System.out.println("Result for your look up: ");
+        System.out.println("Result : ");
         for (Words word : Dictionary.arraysWord) {
             if(word.getWordTarget().equals(wordfind.toLowerCase())) {
                 System.out.println(word.toString());
                 return;
             }
         }
-        System.out.println("Not Found! please retype.");
+        System.out.println("Xin lỗi từ diển của chúng tôi không có từ này,"
+                + " bạn có thể nhấn phím 4 để cung cấp thêm nghĩa của từ vào kho từ vựng để phát triển từ điển!"
+                + "\n Thanks you! ");
     }
     
     // hàm tìm kiếm danh sách các từ vựng
@@ -109,17 +111,17 @@ public class DictionaryManagement {
     
     // hàm xóa từ tronng danh sách
     public void removeWordInList() {
-        System.out.println("Nhập vào từ muốn xóa: ");
+        //System.out.println("Nhập vào từ muốn xóa: ");
         String editWord = scan.nextLine();
         String explain ;
         for (int i = 0; i < Dictionary.arraysWord.size(); i++) {
             if(Dictionary.arraysWord.get(i).getWordTarget().equals(editWord)) {
                 Dictionary.arraysWord.remove(i);
-                System.out.println("Đã xóa!");
+               // System.out.println("Đã xóa!");
                 return;
             }
         }
-        System.out.println("Từ này không tồn tại trong từ điển.");
+        //System.out.println("Từ này không tồn tại trong từ điển.");
         
     }
     
@@ -127,7 +129,7 @@ public class DictionaryManagement {
     public void dictionaryExportToFile() {
         BufferedWriter bw = null;
         try {
-            bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file), "UTF-8"));
+            bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(this.file), "UTF-8"));
             for (Words word : Dictionary.arraysWord) {
                 bw.write(word.getWordTarget() + "\t" + word.getWordExplain());
                 bw.newLine();
