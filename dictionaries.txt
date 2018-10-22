@@ -1,9 +1,9 @@
-a bit	một chút, một tý
+a bit	một tý, một chút
 a few	một ít, một vài
 a little	nhỏ, một ít
 abandon	bỏ, từ bỏ
 abandoned	bị bỏ rơi, bị ruồng bỏ
-ability	khả năng, năng lực
+ability	có khả năng
 able	có năng lực, có tài
 about	khoảng, về
 above	ở trên, lên trên
@@ -3373,7 +3373,7 @@ willing	bằng lòng, vui lòng, muốn
 willingly	sẵn lòng, tự nguyện
 willingness	sự bằng lòng, sự vui lòng
 win	chiếm, đọat, thu được
-wind	quấn lại, cuộn lại
+wind	quấn lại, cuộn lại, gió
 wind sth up	lên dây, quấn, giải quyết
 window	cửa sổ
 wine	rượu, đồ uống
@@ -3436,4 +3436,5 @@ yourself	tự anh, tự chị, chính anh, chính mày, tự mày, tự mình
 youth	tuổi trẻ, tuổi xuân, tuổi thanh niên, tuổi niên thiếu
 zero number	số không
 zone	khu vực, miền, vùng
-zan	không
+shit	phân
+stomachache	đau dạ dày
